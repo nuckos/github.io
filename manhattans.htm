@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manhattan Recipes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #111;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    h1 {
+      margin: 20px 0;
+    }
+    img.logo {
+      display: block;
+      margin: 0 auto 10px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+    .container {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      min-width: 280px;
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+    ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+    ul li {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 4px 0;
+    }
+    .qty {
+      font-weight: 700;
+      min-width: 70px;
+      text-align: right;
+      margin-left: 12px;
+    }
+    .item {
+      flex: 1;
+    }
+    .notes {
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+    .footer-links {
+      text-align: center;
+      margin: 30px 0;
+      padding: 0 20px;
+    }
+    .footer-links a {
+      display: inline-block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: #0066cc;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+    .hover-link {
+      position: relative;
+    }
+    .hover-link:hover::after {
+      content: "Click here to go back to the Main page";
+    }
+    .hover-link::before {
+      content: "Go Back to the Main page";
+    }
+    .extra-info {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      text-align: center;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Types of Manhattans - Updated November 11, 2025</h1>
+  <img src="earthani.gif" width="64" height="64" alt="Animated globe icon" class="logo">
+
+  <hr>
+
+  <h3>Below are recipes for different types of Manhattans including the ingredients and instructions.  Enjoy!</h3>
+
+  <hr>
+
+  <div class="footer-links">
+    <a href="Perfect.htm">Click here for Perfect Manhattan prices and reviews!</a><br>
+    <a href="http://www.nuckos.net" class="hover-link"></a>
+  </div>
+
+  <!-- Classic Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Manhattan</h2>
+      <p>A timeless stirred cocktail; rye-forward, slightly sweet, with aromatic bitters. Chill, stir, and garnish.</p>
+      <p>Traditionally, a Manhattan is made with rye whiskey — that’s the original spirit used when the drink was created in the late 1800s. Rye gives it a spicier, drier edge that balances the sweetness of the vermouth.</p>
+      <p>Bourbon, on the other hand, makes for a smoother, rounder version — a little sweeter and softer on the palate. Both are perfectly acceptable; it just depends on your preferences.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Rye whiskey</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Sweet vermouth</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Angostura bitters</span><span class="qty">2 dashes</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: maraschino cherry or orange twist</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add 2 oz rye whiskey, 1 oz sweet vermouth, and 2 dashes Angostura bitters.</li>
+        <li>Stir for about 30 seconds until well chilled and slightly diluted. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or martini glass.</li>
+        <li>Garnish with a maraschino cherry or an expressed orange twist.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Perfect Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Perfect Manhattan</h2>
+      <p>A refined twist on the classic that balances sweet and dry vermouth for a more complex, less sugary profile.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Rye whiskey (or bourbon if you prefer smoother)</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Sweet vermouth</span><span class="qty">½ oz</span></li>
+        <li><span class="item">Dry vermouth</span><span class="qty">½ oz</span></li>
+        <li><span class="item">Angostura bitters</span><span class="qty">2 dashes</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: lemon twist or cherry</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add whiskey, both vermouths, and bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or martini glass.</li>
+        <li>Garnish with a lemon twist or cherry.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>The “perfect” refers to using both types of vermouth in equal parts.</li>
+          <li>Rye gives it bite; bourbon makes it rounder.</li>
+          <li>Stir, don’t shake — clarity and texture matter here.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dry Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Dry Manhattan</h2>
+      <p>Not a popular drink. Dry vermouth only.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Rye whiskey (or bourbon if you prefer smoother)</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Dry vermouth</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Angostura or Orange bitters</span><span class="qty">2 dashes</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: lemon twist</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add whiskey, dry vermouth, and bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or martini glass.</li>
+        <li>Garnish with a lemon twist.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>Crisp and less sweet — more like a whiskey martini.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rob Roy -->
+  <div class="container">
+    <div class="column">
+      <h2>Rob Roy</h2>
+      <p>A Scotch Manhattan.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Scotch</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Sweet vermouth</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Angostura bitters</span><span class="qty">2 dashes</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: Cherry or lemon twist</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add Scotch, sweet vermouth, and bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or martini glass.</li>
+        <li>Garnish with a cherry or lemon twist.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>The Scottish cousin — smoky, earthy, and refined.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Black Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Black Manhattan</h2>
+      <p>Manhattan made with Averna instead of vermouth.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Rye or bourbon</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Averna (or another amaro)</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Angostura and orange bitters</span><span class="qty">1 dash each</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: Cherry</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add rye or bourbon, Averna, and bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or martini glass.</li>
+        <li>Garnish with a cherry.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>Darker, richer, with herbal depth — modern favorite.</li>
+          <li>Averna gives this drink its deep, bittersweet and herbal tone — less sugary than vermouth.</li>
+          <li>Rye keeps it spicy and balanced; bourbon makes it rounder.</li>
+          <li>Serve it neat or over one large ice cube if you want a slower sip.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Italian Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Italian Manhattan</h2>
+      <p>A bittersweet, herbal spin that swaps the vermouth for amaro to give it a richer Mediterranean edge. Similar to a Black Manhattan.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Rye or bourbon</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Italian amaro (Averna, Cynar, or Montenegro all work well)</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Angostura and orange bitters</span><span class="qty">1 dash each</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: orange peel or Luxardo cherry</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add whiskey, amaro, and both bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or rocks glass.</li>
+        <li>Garnish with orange peel or cherry.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>Averna makes it smooth and dark; Cynar adds earthiness; Montenegro gives it a light, citrusy lift.</li>
+          <li>This version sits somewhere between a classic Manhattan and a Black Manhattan — less sweet, more layered.</li>
+          <li>Try it over a single large ice cube to let the flavors evolve as it dilutes.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brandy Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Brandy Manhattan</h2>
+      <p>A regional favorite, especially in Wisconsin supper clubs, where brandy often replaces whiskey.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Brandy (Korbel is the classic choice)</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Sweet vermouth</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Angostura bitters</span><span class="qty">2 dashes</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: maraschino cherry or orange slice</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add brandy, sweet vermouth, and bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or rocks glass.</li>
+        <li>Garnish with a cherry or orange slice.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>Brandy softens the drink — smoother, rounder, and a little sweeter than a rye Manhattan.</li>
+          <li>Wisconsin-style versions are often served on the rocks instead of up.</li>
+          <li>Try adding a splash of club soda or 7UP if you want the local “supper club” spin.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Reverse Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Reverse Manhattan</h2>
+      <p>A softer, lower-proof take that flips the classic ratio for a more vermouth-forward drink.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Rye or Bourbon</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Sweet vermouth</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Angostura bitters</span><span class="qty">2 dashes</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: maraschino cherry or orange twist</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add sweet vermouth, whiskey, and bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or martini glass.</li>
+        <li>Garnish with a cherry or orange twist.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>This version highlights the vermouth’s botanical depth — smoother, lighter, and less boozy.</li>
+          <li>Works well as an aperitif or an early-evening drink.</li>
+          <li>Use a high-quality vermouth (like Carpano Antica or Cocchi) since it’s the star here.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cuban Manhattan -->
+  <div class="container">
+    <div class="column">
+      <h2>Cuban Manhattan</h2>
+      <p>A tropical riff that swaps whiskey for dark rum, keeping the same structure but with a smooth, caramelized edge.</p>
+    </div>
+    <div class="column">
+      <h2>Ingredients</h2>
+      <ul>
+        <li><span class="item">Dark or aged rum (Havana Club 7, Diplomatico, or Plantation 5 Year work great)</span><span class="qty">2 oz</span></li>
+        <li><span class="item">Sweet vermouth</span><span class="qty">1 oz</span></li>
+        <li><span class="item">Angostura bitters</span><span class="qty">2 dashes</span></li>
+        <li><span class="item">Ice (for stirring)</span><span class="qty"></span></li>
+        <li><span class="item">Garnish: maraschino cherry or orange twist</span><span class="qty"></span></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Fill a mixing glass with ice.</li>
+        <li>Add rum, vermouth, and bitters to a mixing glass with ice.</li>
+        <li>Stir for about 30 seconds until well chilled. <strong>Do Not Shake!</strong></li>
+        <li>Strain into a chilled coupe or martini glass.</li>
+        <li>Garnish with an orange twist or a cherry.</li>
+      </ul>
+      <div class="notes">
+        <strong>Notes:</strong>
+        <ul>
+          <li>The rum gives this version a rounder, molasses-like sweetness and a hint of spice.</li>
+          <li>Try a dash of orange bitters in place of or alongside Angostura for a brighter balance.</li>
+          <li>Serve it neat for a classic feel, or over one large cube if you want it to open up slowly.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="extra-info">
+    <p>There are numerous other Manhattan variations, including the Tequila (Mexican) Manhattan and NYC borough-inspired riffs like the Brooklyn, Red Hook, and Greenpoint. As these are less common and push the traditional definition of a Manhattan, full recipes are omitted here.</p>
+  </div>
+
+  <div class="footer-links">
+    <a href="Perfect.htm">Click here for Perfect Manhattan prices and reviews!</a><br>
+    <a href="http://www.nuckos.net" class="hover-link"></a>
+  </div>
+
+</body>
+</html>
